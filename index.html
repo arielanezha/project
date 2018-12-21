@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+
+  <style>
+   
+    .firstsect{
+      background-color: grey;
+      height:300px;
+    }
+    #gallery{
+      color:rgb(209, 250, 231);
+      margin-top:20px;
+      margin-left:25px;
+    }
+    #header{
+      color:white;
+      font-size:80px;
+      font-family: 'Anton', sans-serif;
+      margin-top:40px;
+      margin-left:25px;
+      }
+    
+      #date{
+      color:white;
+      margin-left:25px;
+    } 
+      #img1{
+      width:100%;
+      height:auto;
+      margin-left:none;
+      position:relative;
+      }
+    .tag{
+      font-size:30px;
+      color:black;
+    }
+    .links{
+      color:rgb(114, 155, 209);
+      font-size:20px;
+    }
+    .button{
+      background-color: rgb(114,166,209);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+    }
+    .caption{
+      top:50%;
+      left:10%;
+      position:absolute;
+      color:rgb(236, 240, 46);
+      font-size:5em;
+      font-family: 'Open Sans', serif;
+        }
+
+    @media screen and (max-width: 570px){
+      #header{
+        font-size:50px;}
+    }
+    @media screen and(max-width: 787px){
+      .caption{
+         font-size:10px;}
+    }
+  </style>
+
+  <body>
+   <div class="container-fluid firstsect">
+      <h3 id="gallery">Gallery <i class="fas fa-angle-double-right"></i></h3>
+      <h4 id="header">Guardian Article</h4>
+      <h3 id="date">November 5, 2018</h3>
+    </div>
+
+  
+<div class="row" style="margin:20px;">
+
+<div class="col-md-9" style="padding-left:0px;" >
+<img src="https://cdn.getyourguide.com/img/tour_img-1086303-146.jpg" class="img-responsive" id="img1">
+<h1 class="caption">VISIT CAPPADOCIA</h1>
+</div>
+
+<div class="col-md-3" >
+    <i class="fas fa-tags tag"><strong>Tags</strong></i>
+    <br>
+    <br>
+    <p><a href="#" class="links">Article</a>, <a href="#"class="links">Header</a></p>
+    <a href="#" class="button">SOURCE</a>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
